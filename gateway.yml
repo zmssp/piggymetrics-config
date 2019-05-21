@@ -41,6 +41,3 @@ zuul:
         serviceId: notification-service
         stripPrefix: false
         sensitiveHeaders:
-
-server:
-  port: 80
