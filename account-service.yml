@@ -14,7 +14,6 @@ spring:
 server:
   servlet:
     context-path: /accounts
-  port: 80
 
 feign:
   hystrix:
