@@ -16,4 +16,4 @@ feign:
 security:
   oauth2:
     resource:
-      user-info-uri: http://ingress-nginx-svc/uaa/users/current
+      user-info-uri: http://gateway-default01-7:1025/uaa/users/current
