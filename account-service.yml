@@ -1,12 +1,3 @@
-security:
-  oauth2:
-    client:
-      clientId: account-service
-      client-secret: XUoJBrTtqXBonU5zMVzSUtrLPKRQztLUQE4poDoIR1QdcDfGgnGgJO5wbFC7xCEL
-      accessTokenUri: http://auth-service/uaa/oauth/token
-      grant-type: client_credentials
-      scope: server
-
 spring:
   data:
     mongodb:

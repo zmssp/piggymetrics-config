@@ -13,7 +13,3 @@ feign:
         connectTimeout: 10000
         readTimeout: 20000
 
-security:
-  oauth2:
-    resource:
-      user-info-uri: http://auth-service/uaa/users/current
