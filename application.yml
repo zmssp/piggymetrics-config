@@ -1,15 +1,1 @@
-hystrix:
-  command:
-    default:
-      execution:
-        isolation:
-          thread:
-            timeoutInMilliseconds: 20000
-
-feign:
-  client:
-    config:
-      default:
-        connectTimeout: 13000
-        readTimeout: 20000
-
+timeout: 5000
