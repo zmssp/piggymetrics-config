@@ -23,7 +23,12 @@ zuul:
         serviceId: auth-service
         stripPrefix: false
         sensitiveHeaders:
-
+    hello:
+      path: /hello/**
+      serviceId: hello-client
+      stripPrefix: false
+      sensitiveHeaders:
+      
     account-service:
         path: /accounts/**
         serviceId: account-service
